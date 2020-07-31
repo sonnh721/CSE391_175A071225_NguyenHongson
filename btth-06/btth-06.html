@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title> </title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="fullscreen_bg" class="fullscreen_bg"/>
+ <form class="form-signin">
+<div class="container">
+    <div class="row">
+        <div class="col-md-5 col-md-offset-5">
+        <div class="panel panel-default">
+        <div class="panel panel-primary">
+        <h3 class="text-primary">Personal Infomation</h3> <hr class="bg-primary " style="height:1px;">
+        <p class="text-center">please fill in your personal data here!</p>
+        
+        <div class="panel-body">   
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-name"> Your Name <span class="glyphicon">*&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+                            <input type="text" class="form-control" placeholder="Your Name" id="Name" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-name"> Age <span class="glyphicon ">*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+                            <input type="text" class="form-control" placeholder="Age" id="Age"/>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-name"> Address <span class="glyphicon ">*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+                            <input type="text" class="form-control" placeholder="Address" id="address"/>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-name"> Zip <span class="glyphicon ">*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+                            <input type="text" class="form-control" placeholder="Zip" id="zip"/>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-name"> City <span class="glyphicon ">*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+                            <input type="text" class="form-control" placeholder="City" id="city"/>
+                        </div>
+                    </div>
+                    
+                    
+                        
+                      
+      
+      </div>
+       </div>
+        </div>
+      
+    </div>
+      <div class="col-md-5">
+        <div class="panel panel-default">
+        <div class="panel panel-primary">
+        	<h3 class="text-primary" >Your Application</h3> <hr class="bg-primary" style="height:1px;">
+           	<p class="text-center">please enter your application data here!</p>
+        
+        <div class="panel-body">   
+
+
+    <div class="form-group">
+        <div class="input-group">
+                <span class="input-name"> Select a job <span class="glyphicon ">*&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+            <select id="inputname" class="form-control">                                                                                    
+                <option selected>Please Choose</option>
+                <option>...</option>
+            </select>
+        </div>
+       
+    </div>
+    <div class="form-group">
+        
+             <span class="input-name"> job type <span class="glyphicon ">*&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+        
+        
+        <div class="check-input">   
+            <div class="form-check form-check-inline ">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Fulltime</label>
+            </div> 
+        </div>
+        <div class="check-input">   
+            <div class="form-check form-check-inline ">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">parttime</label>
+            </div> 
+        </div>
+        <div class="check-input">   
+            <div class="form-check form-check-inline ">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">less than 3 day</label>
+            </div> 
+        </div>
+        <div class="check-input">   
+            <div class="form-check form-check-inline ">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">1 day a week</label>
+            </div> 
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+ 	<div class="form-group">
+        <div class="input-group">
+                <span class="input-name"> Employment date <span class="glyphicon ">*&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+                <input type="date" name="date">
+        </div>  
+    </div>
+    <div class="form-group">
+        <div class="input-group">
+                <span class="input-name"> CV file <span class="glyphicon ">*&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+
+            <div class="custom-file">
+			    <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+			    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+  			</div>
+        </div>  
+    </div>
+
+        </div>
+</div>
+<button class="btn btn-lg btn-primary btn-block w-25 " type="submit">
+			Submit
+</button>
+</form>
+
+
+</div> 
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

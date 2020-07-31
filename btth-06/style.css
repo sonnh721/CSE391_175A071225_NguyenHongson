@@ -1,0 +1,35 @@
+body
+{
+ 
+    padding-top: 40px;
+}
+
+.panel-default {
+opacity: 0.8;
+/*margin-top:30px;*/
+}
+p.text-center 
+{
+    background: #00BFFF;
+    color: #fff;
+    text-align:left !important;
+}
+.input-name
+{
+   direction:left;
+}
+.form-group {
+    display: flex;
+}
+
+.form-control:focus
+{
+    text-align: 30px;
+    background-color:black;
+    border-color: black;
+    color: rgb(255, 255, 255);
+}
+.glyphicon
+{
+    color: red;
+}
